@@ -9,7 +9,7 @@ export default function page() {
   return (
     <div className="bg-gray-50 text-black dark:bg-black dark:text-white">
       <Navbar />
-      <div>
+      {/* <div> */}
         <div className="text-center font-bold text-3xl"><h1>Your Account</h1></div>
         <div className="bg-gray-50 rounded-lg my-3 p-2 grid 2xl:grid-cols-4  md:grid-cols-3 sm:grid-cols-2 grid-cols-1 items-center justify-between cursor-pointer">
           <Link href={'/Myaccount/yourOrder'}>
@@ -39,7 +39,7 @@ export default function page() {
             <SimpleCard title={"Customer Service"} des={"Browse self service options, help articles or contact us"} imgss={"/contactus.png"} className=" hover:bg-gray-100" />
           </div>
         </div>
-      </div>
+      {/* </div>z */}
       <Fotter/>
     </div>
   );

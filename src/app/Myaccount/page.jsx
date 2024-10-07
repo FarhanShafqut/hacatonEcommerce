@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../(components)/Navbar/page";
-import SimpleCard from "../(components)/simplecard";
+import SimpleCard from "../(components)/simpleCard";
+// import SimpleCard from '../(components)/SimpleCard';
 import Link from "next/link";
 import Fotter from "../(components)/Fotter/page";
 
